@@ -2,30 +2,30 @@ const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Serif',
+    title: 'Davids Pools',
     description: 'my theme',
     contact: {
       phone: 'XXX XXX XXX',
-      email: 'zerostaticthemes@gmail.com',
+      email: 'davidspools@gmail.com'
     },
     menuLinks: [
       {
         name: 'Services',
-        link: '/services',
+        link: '/services'
       },
       {
-        name: 'Team',
-        link: '/team',
+        name: 'About',
+        link: '/team'
       },
       {
-        name: 'Testimonials',
-        link: '/testimonials',
+        name: 'Gallery',
+        link: '/testimonials'
       },
       {
         name: 'Contact',
-        link: '/contact',
-      },
-    ],
+        link: '/contact'
+      }
+    ]
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -36,30 +36,30 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
+        name: 'pages'
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/data`,
-        name: 'data',
-      },
+        name: 'data'
+      }
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/images`,
-        name: 'images',
-      },
+        name: 'images'
+      }
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         trackingId: guid ? guid : 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
-        head: false,
-      },
-    },
-  ],
+        head: false
+      }
+    }
+  ]
 };
