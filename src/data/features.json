@@ -1,17 +1,17 @@
 [
   {
     "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "/features/noun_branding_1885335.svg"
+    "description": "New clients recieve an obligation free consultation",
+    "image": "/features/consultation.png"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "/features/noun_The Process_1885341.svg"
+    "title": "Experienced Technician",
+    "description": "More than 20 years of experience cleaning and maintaning pools",
+    "image": "/features/experience.png"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/features/noun_3d modeling_1885342.svg"
+    "title": "Customized Plan",
+    "description": "We custom tailor our cleaning methods to fit the needs of your pool, rest assured you are getting the best possible service",
+    "image": "/features/plan.png"
   }
 ]

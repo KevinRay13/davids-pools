@@ -6,6 +6,10 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   .container {
     display: flex;
     justify-content: space-between;

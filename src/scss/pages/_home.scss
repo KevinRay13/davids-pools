@@ -1,5 +1,5 @@
 .page-home {
-  background-image: url('../images/undraw_taking_notes_tjaf.svg');
+  // background-image: url('../images/undraw_taking_notes_tjaf.svg');
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 49px -40px;
@@ -15,4 +15,21 @@
     background-size: 60%;
     background-position: 100% -70px;
   }
+}
+.parallax {
+  /* The image used */
+  background-image: url('../images/poolhouse.jpeg');
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#frost {
+  background-color: rgba(255, 255, 255, 0.774);
+  border-radius: 10px;
 }
