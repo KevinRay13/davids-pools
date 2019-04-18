@@ -16,3 +16,19 @@
     background-position: 100% -110px;
   }
 }
+.parallaxGal {
+  /* The image used */
+  background-image: url('../images/gallery.jpg');
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#test {
+  margin: 5em;
+}

@@ -1,5 +1,5 @@
 .page-teams {
-  background-image: url('../images/undraw_hang_out_h9ud.svg');
+  // background-image: url('../images/aboutimg.jpeg');
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 49px -40px;
@@ -15,4 +15,41 @@
     background-size: 60%;
     background-position: 100% -110px;
   }
+}
+.parallaxAbt {
+  /* The image used */
+  background-image: url('../images/Backyardpool.jpg');
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about {
+  // margin: 0;
+  float: bottom;
+  text-align: center;
+}
+#col12 {
+  // margin-right: 5em;
+  width: 100%;
+}
+#intro {
+  display: flex;
+  justify-content: left;
+}
+#aboutDP {
+  margin: 2em;
+}
+#p1 {
+  font-size: 1.5em;
+}
+#h1About {
+  color: #1c3ed2;
+}
+.pos {
 }

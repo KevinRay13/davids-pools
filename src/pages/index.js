@@ -20,8 +20,8 @@ const Home = props => {
       </Helmet>
       <div className='parallax'>
         <div className='intro pb-4'>
-          <div className='container' id='frost'>
-            <h1>Pool cleaning and maintanence</h1>
+          <div className='container1' id='frost'>
+            <h1 id='h1'>Pool cleaning and maintanence</h1>
             <p>
               With our pool service you don't need to do anything but enjoy your
               pool, we handle everything else.
