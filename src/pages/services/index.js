@@ -3,31 +3,43 @@ import { Link, graphql } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
 
-const Services = (props) => {
+const Services = props => {
   const services = props.data.allMarkdownRemark.edges;
   return (
-    <Layout bodyClass="page-services">
-      <SEO title="Services" />
-      <div className="intro">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h1>Services</h1>
+    <Layout bodyClass='page-services'>
+      <SEO title='Services' />
+      <div className='parallaxSer'>
+        <div className='intro'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-12'>
+                <h1 id='frost' className='about'>
+                  Services
+                </h1>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container pb-6">
-        <div className="row">
+      <div className='container pb-6' id='test'>
+        <div className='row'>
           {services.map(edge => (
-            <div key={edge.node.frontmatter.path} className="col-12 col-md-4 mb-1">
-              <div className="card service service-teaser">
-                <div className="card-content">
+            <div
+              key={edge.node.frontmatter.path}
+              className='col-12 col-md-4 mb-1'
+            >
+              <div className='card service service-teaser'>
+                <div className='card-content'>
                   <h2>
-                    <Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link>
+                    <Link to={edge.node.frontmatter.path}>
+                      {edge.node.frontmatter.title}
+                    </Link>
                   </h2>
-                  <p>{edge.node.excerpt}</p>
+                  <p id='excerpt'>{edge.node.excerpt}</p>
+                  <Link to={edge.node.frontmatter.path} id='more'>
+                    <p> Click for More </p>
+                  </Link>
                 </div>
               </div>
             </div>

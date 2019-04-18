@@ -1,5 +1,5 @@
 .page-services {
-  background-image: url('../images/undraw_businesswoman_pc12.svg');
+  // background-image: url('../images/undraw_businesswoman_pc12.svg');
   background-repeat: no-repeat;
   background-size: 115%;
   background-position: 49px -40px;
@@ -15,4 +15,52 @@
     background-size: 60%;
     background-position: 100% -110px;
   }
+}
+.parallaxSer {
+  /* The image used */
+  background-image: url('../images/water.jpg');
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#more {
+  margin-bottom: 1em;
+  text-align: center;
+}
+#excerpt {
+  margin: 0;
+}
+#centerMe {
+  display: flex;
+  justify-content: center;
+}
+#times {
+  margin: 0 auto;
+  height: 50vh;
+  width: 50vw;
+}
+#cont {
+  display: flex;
+  height: 10vh;
+  width: 100vw;
+  margin: 2em;
+}
+#box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  align-self: center;
+  align-content: center;
+}
+.margin {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  color: #1c3ed2;
 }
