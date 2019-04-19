@@ -64,3 +64,33 @@
   margin-top: 2em;
   color: #1c3ed2;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1em;
+  align-items: center;
+}
+.galleryImage {
+  max-width: 100vw;
+  height: 60vh;
+  padding: 0.5em;
+  margin: 0 auto;
+  border-radius: 5%;
+  // border: 2px solid blue;
+}
+#imgBox {
+  display: flex;
+  // margin: 0 auto;
+  // width: 90vw;
+  // height: auto;
+  align-content: center;
+}
+#ourWork {
+  display: flex;
+  align-content: center;
+  margin: 1em;
+  justify-content: center;
+  color: #1c3ed2;
+}

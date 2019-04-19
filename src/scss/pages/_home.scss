@@ -35,11 +35,19 @@
   padding: 0.5em;
   margin: 1em;
 }
-.conatainer1 {
-  height: auto;
-  width: auto;
-}
+// .container1 {
+//   height: auto;
+//   width: auto;
+// }
 #h1 {
   width: auto;
   margin: 0 auto;
+}
+#flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 30vw;
 }

@@ -35,14 +35,15 @@ const Home = props => {
       </div>
 
       <div className='container pt-8 pt-md-10'>
-        <div className='row justify-content-start'>
-          <div className='col-12'>
-            <h2 className='title-3 text-dark mb-3'>Our Services</h2>
+        <div>
+          <div>
+            <h1 className='title-3 text-dark mb-3'>Our Services</h1>
           </div>
           {markdown.map(edge => (
             <div
               key={edge.node.frontmatter.path}
-              className='col-12 col-md-4 mb-1'
+              className='col-12 col-md-4 '
+              id='flex'
             >
               <div className='card service service-teaser'>
                 <div className='card-content'>

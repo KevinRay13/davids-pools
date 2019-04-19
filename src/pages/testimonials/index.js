@@ -2,12 +2,15 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
+import b4 from '../../images/b4.jpg';
+import after from '../../images/aftr.jpg';
+import inProgress from '../../images/inPerson.jpg';
 
 const Testimonials = props => {
   const testimonials = props.data.allMarkdownRemark.edges;
   return (
-    <Layout bodyClass='page-testimonials'>
-      <SEO title='Testimonials' />
+    <Layout bodyClass='page-gallery'>
+      <SEO title='Gallery' />
       <div className='parallaxGal'>
         <div className='intro'>
           <div className='container'>
@@ -21,33 +24,22 @@ const Testimonials = props => {
           </div>
         </div>
       </div>
-
-      <div className='container pb-6' id='test'>
-        <div className='row'>
-          {testimonials.map(edge => (
-            <div
-              key={edge.node.frontmatter.path}
-              className='col-12 col-md-6 mb-1'
-            >
-              <div className='testimonial'>
-                <div className='testimonials-meta'>
-                  <h2 className='testimonials-title'>
-                    {edge.node.frontmatter.title}
-                  </h2>
-                  <p className='testimonials-name'>
-                    {edge.node.frontmatter.name}
-                  </p>
-                  <p className='testimonials-jobtitle'>
-                    {edge.node.frontmatter.jobtitle}
-                  </p>
-                </div>
-                <div
-                  className='testimonials-content'
-                  dangerouslySetInnerHTML={{ __html: edge.node.html }}
-                />
-              </div>
-            </div>
-          ))}
+      <div>
+        <h1 id='ourWork'>Our Work</h1>
+      </div>
+      <div className='gallery'>
+        <div id='imgBox'>
+          <img src={b4} alt='pool before' className='galleryImage' />
+        </div>
+        <div id='imgBox'>
+          <img src={after} alt='pool after' className='galleryImage' />
+        </div>
+        <div id='imgBox'>
+          <img
+            src={inProgress}
+            alt='in progress cleaning'
+            className='galleryImage'
+          />
         </div>
       </div>
     </Layout>

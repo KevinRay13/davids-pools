@@ -23,11 +23,12 @@ const Services = props => {
       </div>
 
       <div className='container pb-6' id='test'>
-        <div className='row'>
+        <div className='row' id='flex'>
           {services.map(edge => (
             <div
               key={edge.node.frontmatter.path}
               className='col-12 col-md-4 mb-1'
+              id='flex'
             >
               <div className='card service service-teaser'>
                 <div className='card-content'>
