@@ -30,8 +30,8 @@ class Header extends React.Component {
               {/* <h4>Davids Pools</h4> */}
               <div id='fix'>
                 <h1 id='logo'>Davids Pool's</h1>
-                <div class='drop-container'>
-                  <div class='drop' />
+                <div className='drop-container'>
+                  <div className='drop' />
                 </div>
               </div>
             </Link>
