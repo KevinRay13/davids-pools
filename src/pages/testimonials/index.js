@@ -2,9 +2,9 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import SEO from '../../components/SEO';
 import Layout from '../../layouts/index';
-import b4 from '../../images/b4.jpg';
-import after from '../../images/aftr.jpg';
-import inProgress from '../../images/inPerson.jpg';
+import b4 from '../../../public/images/b4.jpg';
+import after from '../../../public/images/aftr.jpg';
+import inProgress from '../../../public/images/inPerson.jpg';
 
 const Testimonials = (props) => {
   const testimonials = props.data.allMarkdownRemark.edges;
