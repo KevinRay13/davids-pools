@@ -26,8 +26,6 @@ class Header extends React.Component {
         <div className="container">
           <div className="logo">
             <Link to="/">
-              {/* <img alt='Figurit Homepage 1' src={logo} /> */}
-              {/* <h4>Davids Pools</h4> */}
               <div id="fix">
                 <h1 id="logo">Davids Pool's</h1>
                 <div className="drop-container">
