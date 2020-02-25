@@ -18,10 +18,11 @@
 }
 .parallaxAbt {
   /* The image used */
-  background-image: url('../images/Backyardpool.jpg');
+  background-image: url('../images/cliffpool.jpg');
 
   /* Set a specific height */
-  height: 500px;
+  height: 80vh;
+  width: 100vw;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

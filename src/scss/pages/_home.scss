@@ -18,10 +18,11 @@
 }
 .parallax {
   /* The image used */
-  background-image: url('../images/poolhouse.jpeg');
+  background-image: url('../images/mainpool.jpg');
 
   /* Set a specific height */
-  height: 500px;
+  height: 80vh;
+  width: 100vw;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;

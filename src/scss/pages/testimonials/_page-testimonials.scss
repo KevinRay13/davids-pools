@@ -18,10 +18,11 @@
 }
 .parallaxGal {
   /* The image used */
-  background-image: url('../images/gallery.jpg');
+  background-image: url('../images/multilayerpool.jpg');
 
   /* Set a specific height */
-  height: 500px;
+  height: 80vh;
+  width: 100vw;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
