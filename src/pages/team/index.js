@@ -24,23 +24,20 @@ const Team = props => {
 
       <div className='container pb-6'>
         <div className='row' id='aboutDP'>
-          <p id='p1'>
-            <br />
-            <h2>We are proven.</h2> <br />
-            <h4>
-              With more than ten years of experience and hundreds of satisfied
-              customers, our business model begins and ends with competitive
-              rates and excellent customer service.
-            </h4>
-            <br />
-            <h4>
-              Davids Pools takes pride in being the best. We complete each
-              project on time, as quoted, while delivering the highest level of
-              quality.
-            </h4>
-            <br />
-            <h3>We are always striving to exceed expectations!</h3>
-          </p>
+          <br />
+          <h2>We are proven.</h2> <br />
+          <h4>
+            With more than ten years of experience and hundreds of satisfied
+            customers, our business model begins and ends with competitive rates
+            and excellent customer service.
+          </h4>
+          <br />
+          <h4>
+            Davids Pools takes pride in being the best. We complete each project
+            on time, as quoted, while delivering the highest level of quality.
+          </h4>
+          <br />
+          <h3>We are always striving to exceed expectations!</h3>
           {/* {teams.map(edge => (
             <div
               key={edge.node.frontmatter.path}
