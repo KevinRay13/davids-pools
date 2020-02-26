@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import logoMobile from '../images/dplogo.svg';
 import Menu from './Menu';
 import Hamburger from './Hamburger';
 
-import logoMobile from '/Users/kevinedmondson/work/davids-pools/src/images/dplogo.svg';
 import MenuMobile from './MenuMobile';
 
 class Header extends React.Component {
