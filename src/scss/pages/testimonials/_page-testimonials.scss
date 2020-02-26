@@ -31,8 +31,7 @@
   background-size: cover;
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -46,8 +45,7 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -61,8 +59,7 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -76,8 +73,7 @@
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -91,8 +87,7 @@
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -106,8 +101,7 @@
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -121,8 +115,7 @@
   }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
@@ -136,8 +129,7 @@
   }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../images/multilayerpool.jpg');
+    background-image: url('../images/multilayerpool.jpg');
 
     /* Set a specific height */
     height: 50%;
