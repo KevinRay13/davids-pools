@@ -31,21 +31,35 @@
   background-size: cover;
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
     height: auto;
-    width: 100vw;
+    width: auto;
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: landscape) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+    height: auto;
+    width: auto;
   }
   @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
+    height: auto;
+    width: auto;
   }
 }
 #test {
