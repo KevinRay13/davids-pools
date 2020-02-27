@@ -7,7 +7,7 @@ module.exports = {
     contact: {
       phone: '773 470 6474',
       aphone: '210 487 8813',
-      email: 'LencioSandoval@DavidsPools.com',
+      email: 'LeoSandoval@DavidsPools.com',
     },
     menuLinks: [
       {
