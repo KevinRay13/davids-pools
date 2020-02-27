@@ -5,6 +5,9 @@ import Layout from '../../layouts/index';
 import b4 from './b4.jpg';
 import after from './aftr.jpg';
 import inProgress from './inPerson.jpg';
+import before1 from './gallery4.jpg';
+import after1 from './gallery5.jpg';
+import after2 from './gallery3.jpg';
 
 const Testimonials = (props) => {
   const testimonials = props.data.allMarkdownRemark.edges;
@@ -36,6 +39,15 @@ const Testimonials = (props) => {
         </div>
         <div id="imgBox">
           <img src={inProgress} alt="in progress cleaning" className="galleryImage" />
+        </div>
+        <div id="imgBox">
+          <img src={before1} alt="in progress cleaning" className="galleryImage" />
+        </div>
+        <div id="imgBox">
+          <img src={after1} alt="in progress cleaning" className="galleryImage" />
+        </div>
+        <div id="imgBox">
+          <img src={after2} alt="in progress cleaning" className="galleryImage" />
         </div>
       </div>
     </Layout>

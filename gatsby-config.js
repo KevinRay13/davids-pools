@@ -5,27 +5,28 @@ module.exports = {
     title: 'Davids Pools',
     description: 'my theme',
     contact: {
-      phone: 'XXX XXX XXX',
-      email: 'davidspools@gmail.com'
+      phone: '773 470 6474',
+      aphone: '210 487 8813',
+      email: 'LencioSandoval@DavidsPools.com',
     },
     menuLinks: [
       {
         name: 'Services',
-        link: '/services'
+        link: '/services',
       },
       {
         name: 'About',
-        link: '/team'
+        link: '/team',
       },
       {
         name: 'Gallery',
-        link: '/testimonials'
+        link: '/testimonials',
       },
       {
         name: 'Contact',
-        link: '/contact'
-      }
-    ]
+        link: '/contact',
+      },
+    ],
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -36,30 +37,30 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/data`,
-        name: 'data'
-      }
+        name: 'data',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/images`,
-        name: 'images'
-      }
+        name: 'images',
+      },
     },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid ? guid : 'UA-XXX-1',
+        trackingId: guid || 'UA-XXX-1',
         // Puts tracking script in the head instead of the body
-        head: false
-      }
-    }
-  ]
+        head: false,
+      },
+    },
+  ],
 };
