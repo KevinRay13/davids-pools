@@ -29,6 +29,15 @@ module.exports = {
     ],
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: guid || 'UA-176252589-1',
+        // Puts tracking script in the head instead of the body
+        head: true,
+        anonymize: true,
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
@@ -52,15 +61,6 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images`,
         name: 'images',
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: guid || 'UA-176252589-1',
-        // Puts tracking script in the head instead of the body
-        head: true,
-        anonymize: true,
       },
     },
   ],
