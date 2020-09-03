@@ -1,4 +1,7 @@
-const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
+// const guid = process.env.NETLIFY_GOOGLE_ANALYTICS_ID;
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 
 module.exports = {
   siteMetadata: {
@@ -32,7 +35,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: guid || 'UA-176252589-1',
+        trackingId: process.env.GA_TRACKING_ID,
+
         // Puts tracking script in the head instead of the body
         head: true,
         anonymize: true,
