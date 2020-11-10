@@ -8,7 +8,7 @@ module.exports = {
     title: 'Davids Pools',
     description: 'my theme',
     contact: {
-      phone: '773 470 6474',
+      phone: '773 470 6475',
       aphone: '210 487 8813',
       email: 'LeoSandoval@DavidsPools.com',
     },
